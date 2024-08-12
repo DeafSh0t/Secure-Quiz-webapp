@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cybersecurity Quiz</title>
+    <link href="Cybersecurity%20Quiz_files/css2.htm" rel="stylesheet">
+    <link rel="stylesheet" href="Cybersecurity%20Quiz_files/styles.css">
+</head>
+<body>
+    <header id="quiz-header">
+        <h1>Cybersecurity Quiz</h1>
+        <p>Test your knowledge on cybersecurity concepts!</p>
+    </header>
+
+    <div id="quiz-form">
+            <div class="question">
+                <p>1. Which of the following is a common method used to perform a Man-in-the-Middle (MitM) attack?</p>
+                
+                    <label>
+                        <input type="radio" name="q0" value="Phishing">
+                        Phishing
+                    </label>
+                
+                    <label>
+                        <input type="radio" name="q0" value="ARP Spoofing">
+                        ARP Spoofing
+                    </label>
+                
+                    <label>
+                        <input type="radio" name="q0" value="SQL Injection">
+                        SQL Injection
+                    </label>
+                
+                    <label>
+                        <input type="radio" name="q0" value="Denial Of Service(DOS)">
+                        Denial Of Service(DOS)
+                    </label>
+                
+            </div>
+        </div>
+
+    <div class="button-container">
+        <button id="prev-btn" style="display: none;">Previous Question</button>
+        <button id="submit-btn">Submit</button>
+        <button id="next-btn" style="display: inline-block;">Next Question</button>
+    </div>
+
+    <div class="reset-container">
+        <button id="reset-btn">Reset</button>
+    </div>
+
+    <!-- Modal for results -->
+    <div id="result-modal" class="modal" style="display: none;">
+        <div class="modal-content">
+            <span id="close-modal" class="close">×</span>
+            <p id="result">Your score is 1 out of 3.</p>
+        </div>
+    </div>
+
+    <footer id="footer">
+        © 2024 Cybersecurity Quiz. All rights reserved.
+    </footer>
+
+    <script src="Cybersecurity%20Quiz_files/script.js"></script>
+
+
+</body></html>
